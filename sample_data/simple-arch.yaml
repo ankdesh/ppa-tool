@@ -1,0 +1,7 @@
+- Component1: 
+    BasicBlock1.xx.yy1: 4
+    BasicBlock1.xx: 10
+    
+- Component2:
+    Component1: 2
+    BasicBlock1.xx: 3
