@@ -1,4 +1,4 @@
-def verbose_print (string, verbose_level, verbose_setting):
+def verbose_print (string, verbose_level=2, verbose_setting=2):
   ''' Print the string with formatting if verbose_level
   is more than the verbose_setting assigned to the statement
   Lower the verbose_setting, 

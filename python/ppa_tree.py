@@ -68,14 +68,14 @@ class Node:
     ''' Prints the Node info with all attributes
     '''
 
-    verbose_print (pformat(self.__dict__) + '\n', 2, 2)
+    verbose_print (pformat(self.__dict__) + '\n')
 
 
   def printNodeName(self):
     ''' Prints the Node Name
     '''
 
-    verbose_print (self.name, 2, 2)
+    verbose_print (self.name)
 
 
   def printTreePreorder(self, full = 0):
@@ -130,6 +130,7 @@ class Node:
     self._constructDotNodes(G,full)
     self._constructDotEdges(G,full)
 
+    verbose_print('Dumping Graph to file:' + filename)
     G.render(filename, cleanup = True)
     
 
